@@ -1,0 +1,45 @@
+{
+    "project_name": "Cyber USB Toolkit",
+    "version": "1.0.0",
+    "author": "Cyber USB Team",
+    "description": "Multifunctional bootable USB tool for system performance and security",
+    
+    "settings": {
+        "auto_update": false,
+        "log_level": "info",
+        "enable_gui": true,
+        "dark_mode": true,
+        "language": "en"
+    },
+    
+    "paths": {
+        "windows_scripts": "OS/Windows/Scripts/",
+        "linux_scripts": "OS/Linux/Scripts/",
+        "kali_scripts": "OS/Kali/Scripts/",
+        "security_tools": "Security/",
+        "performance_tools": "Performance/",
+        "logs": "Core/logs/"
+    },
+    
+    "features": {
+        "system_cleanup": true,
+        "driver_management": true,
+        "security_scan": true,
+        "network_tools": true,
+        "phishing_defense": true,
+        "performance_boost": true
+    },
+    
+    "security": {
+        "require_consent": true,
+        "local_logs_only": true,
+        "no_external_data": true,
+        "legal_tools_only": true
+    },
+    
+    "compatibility": {
+        "windows": ["10", "11"],
+        "linux": ["ubuntu", "debian", "kali"],
+        "minimum_python": "3.6"
+    }
+}
